@@ -15,6 +15,12 @@ import java.io.IOException;
 public class Evaluator {
 
     public static void main(String[] args) {
+        System.out.println("input should be: /path/to/testfile.dat /path/to/generated/preditions.dat");
+        if (args.length < 2){
+            System.out.println("No files given as input");
+            System.exit(0);
+        }
+
         File testFile = new File(args[0]);
         File predictionFile = new File(args[1]);
         SimpleParser testParser = new SimpleParser();
