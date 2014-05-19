@@ -11,17 +11,3 @@ The evaluator is a Java program. To run it, download the [compiled jar](https://
 java -jar rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar "/path/to/testfile.dat" "/path/to/predictions"
 ```
 
-Building jar with dependencies
-------------------------------
-Should you want to build the jar yourself, you will need:
-- [Maven](http://maven.apache.org/)
-- Compiled and installed [rival](http://rival.recommenders.net) into your local Maven repository.
-
-To build a jar (with dependencies), execute the following command:
-```bash
-mvn assembly:assembly -DdescriptorId=jar-with-dependencies
-```
-You can also run the file program directly with Maven, for doing so execute the following command:
-```bash
-mvn exec:java -Dexec.args="/path/to/testfile.dat /path/to/predictions.dat"
-```
