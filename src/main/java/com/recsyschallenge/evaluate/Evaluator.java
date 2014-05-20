@@ -38,10 +38,13 @@ public class Evaluator {
             System.exit(0);
         }
 
-        EvaluationMetric ndcg = new NDCG(recs, test, 10);
+        NDCG ndcg = new NDCG(recs, test, new int[]{10});
+
+        NDCG ndcg1 = new NDCG(recs, test);
+        ndcg1.compute();
         ndcg.compute();
         System.out.println("Evaluated " + recs.getNumUsers() + " users with predictions against " + test.getNumUsers() + " users in validation set");
-        System.out.println("nDCG@10: " + ndcg.getValue());
+        System.out.println("nDCG@10: " + ndcg.getValueAt(10));
 
     }
 }
