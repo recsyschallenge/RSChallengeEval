@@ -8,7 +8,7 @@ Running Evaluation
 ------------------
 The evaluator is a Java program. To run it, download the [compiled jar](https://github.com/recsyschallenge/RSChallengeEval/blob/master/target/rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar) and execute it like:
 ```bash
-java -jar rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar "/path/to/testfile.dat /path/to/predictions"
+java -jar rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar "/path/to/testfile.dat" "/path/to/predictions"
 ```
 
 Building jar with dependencies
