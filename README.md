@@ -55,7 +55,7 @@ To build a jar (with dependencies), execute the following command:
 ```bash
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies
 ```
-You can also run the file program directly with Maven, for doing so execute the following command:
+You can also run the file program directly with Maven. In order to do so, execute the following command:
 ```bash
 mvn exec:java -Dexec.args="/path/to/testfile.dat /path/to/predictions.dat"
 ```
