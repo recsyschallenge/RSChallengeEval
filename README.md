@@ -2,7 +2,7 @@ RSChallengeEval
 ===============
 This repository contains the official evaluation for the [ACM RecSys Challenge 2014](http://www.recsyschallenge.com "RecSysChallenge").
 
-The program calculates normalized [Discounted Cumulative Gain](http://recsyswiki.com/wiki/Discounted_Cumulative_Gain "DCG") at 10 (nDCG@10) given an input of ranking predictions and true ranking.
+The program calculates normalized [Discounted Cumulative Gain](http://recsyswiki.com/wiki/Discounted_Cumulative_Gain "DCG") at 10 (nDCG@10) given an input of ranking predictions and true rankings.
 Note that the evaluator assumes all data files to be in comma-separated-value (CSV) format.
 
 Running the evaluator as a standalone program
