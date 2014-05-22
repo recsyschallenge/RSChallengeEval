@@ -2,6 +2,7 @@ package com.recsyschallenge.evaluate;
 
 import net.recommenders.rival.core.SimpleParser;
 import net.recommenders.rival.core.DataModel;
+import net.recommenders.rival.evaluation.metric.EvaluationMetric;
 import net.recommenders.rival.evaluation.metric.NDCG;
 
 import java.io.File;
@@ -40,7 +41,6 @@ public class Evaluator {
         SimpleParser testParser = new SimpleParser();
         this.test = testParser.parseData(testFile, ",");
         this.predictions = testParser.parseData(predictionFile, ",");
-        this.ndcg = new NDCG(predictions, test, new int[]{10});
     }
 
     /**
