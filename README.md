@@ -8,7 +8,7 @@ The program calculates normalized [Discounted Cumulative Gain](http://recsyswiki
 
 Running the evaluator as a standalone program
 ------------------
-The evaluator is a Java program. To run it, download the [compiled jar](https://github.com/recsyschallenge/RSChallengeEval/blob/master/target/rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar) and execute it like:
+The evaluator is a Java program. To run it, download the [compiled jar](https://github.com/recsyschallenge/RSChallengeEval/releases/download/v0.1/rscevaluator-0.1-jar-with-dependencies.jar) and execute it like:
 ```bash
 java -jar rscevaluator-0.1-SNAPSHOT-jar-with-dependencies.jar "/path/to/testfile.dat" "/path/to/predictions"
 ```
