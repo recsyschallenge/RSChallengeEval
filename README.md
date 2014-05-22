@@ -21,7 +21,7 @@ javac -cp ./rscevaluator-0.1-jar-with-dependencies.jar Example.java
 Executing:
 ```bash
 java -cp ./rscevaluator-0.1-jar-with-dependencies.jar:. Example
-´´´
+```
 
 An example class using the evaluator:
 ```Java
