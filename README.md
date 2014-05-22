@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/recsyschallenge/RSChallengeEval.png?branch=master)](https://travis-ci.org/recsyschallenge/RSChallengeEval)
+
 RSChallengeEval
 ===============
 This repository contains the official evaluation for the [ACM RecSys Challenge 2014](http://www.recsyschallenge.com "RecSysChallenge").
