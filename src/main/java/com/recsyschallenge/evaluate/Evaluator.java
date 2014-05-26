@@ -41,6 +41,7 @@ public class Evaluator {
         SimpleParser testParser = new SimpleParser();
         this.test = testParser.parseData(testFile, ",");
         this.predictions = testParser.parseData(predictionFile, ",");
+        this.ndcg = new NDCG(predictions, test, new int[]{10});
     }
 
     /**
