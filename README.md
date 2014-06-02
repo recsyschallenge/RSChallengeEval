@@ -49,7 +49,6 @@ Note that this step is not necessary, it is only provided for those that want to
 
 Should you want to build the evaluator jar yourself, you will need:
 - [Maven](http://maven.apache.org/)
-- Compiled and installed [rival](http://rival.recommenders.net) into your local Maven repository.
 
 To build a jar (with dependencies), execute the following command:
 ```bash

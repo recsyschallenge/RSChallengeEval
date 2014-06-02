@@ -2,8 +2,7 @@ package com.recsyschallenge.evaluate;
 
 import net.recommenders.rival.core.SimpleParser;
 import net.recommenders.rival.core.DataModel;
-import net.recommenders.rival.evaluation.metric.EvaluationMetric;
-import net.recommenders.rival.evaluation.metric.NDCG;
+import net.recommenders.rival.evaluation.metric.ranking.NDCG;
 
 import java.io.File;
 import java.io.IOException;
