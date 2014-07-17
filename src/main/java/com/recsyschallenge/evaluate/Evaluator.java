@@ -29,6 +29,11 @@ public class Evaluator {
     public DataModel predictions;
 
     /**
+     * The value at which to evaluate NDCG, i.e. ndcg@10
+     */
+    public static final int AT = 10;
+
+    /**
      * Constructor for the evaluator.
      * @param testsetPath The path to the file containing the testset.
      * @param predictionsetPath The path to the file containing the predictions.
@@ -40,7 +45,7 @@ public class Evaluator {
         SimpleParser testParser = new SimpleParser();
         this.test = testParser.parseData(testFile, ",");
         this.predictions = testParser.parseData(predictionFile, ",");
-        this.ndcg = new NDCG(predictions, test, new int[]{10});
+        this.ndcg = new NDCG(predictions, test, new int[]{AT});
     }
 
     /**
@@ -84,7 +89,7 @@ public class Evaluator {
      */
     public double evaluate(){
         ndcg.compute();
-        return ndcg.getValueAt(10);
+        return ndcg.getValueAt(AT);
     }
 
     /**
