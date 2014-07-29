@@ -7,7 +7,7 @@
     <groupId>com.recsyschallenge.evaluate</groupId>
     <artifactId>rscevaluator</artifactId>
     <packaging>jar</packaging>
-    <version>0.13</version>
+    <version>0.14</version>
 
     <dependencies>
         <dependency>
