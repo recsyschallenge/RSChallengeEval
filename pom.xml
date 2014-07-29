@@ -7,18 +7,18 @@
     <groupId>com.recsyschallenge.evaluate</groupId>
     <artifactId>rscevaluator</artifactId>
     <packaging>jar</packaging>
-    <version>0.12</version>
+    <version>0.13</version>
 
     <dependencies>
         <dependency>
             <groupId>net.recommenders.rival</groupId>
             <artifactId>rival-evaluate</artifactId>
-            <version>0.1</version>
+            <version>0.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>net.recommenders.rival</groupId>
             <artifactId>rival-core</artifactId>
-            <version>0.1</version>
+            <version>0.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
